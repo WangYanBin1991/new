@@ -1,0 +1,123 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,span{margin:0;padding:0}
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;position: relative;}
+
+a{color:#172c45;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:none}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;display: block;}
+
+万能清除浮动
+.clear:after{content:".";display:block;height:0;clear:both;overflow:hidden; visibility:hidden;}
+
+#headbox{
+	height: 33px;
+	width: 100%;
+	background: #ccc;
+}
+#head{
+	height: 28px;
+	width: 1102px;
+
+	margin: 0 auto;
+	padding-left: 26px;
+	padding-top:5px ;
+}
+
+#weizhi{
+	width: 144px;
+	height: 22px;
+	float: left;
+}
+#weizhi li {
+
+	height: 22px;
+	float: left;
+}
+.cityname{
+	width: 72px;
+	position: relative;
+
+	
+}
+.cityname span{
+	float: left;
+	height:22px ;
+	line-height: 22px;
+	font-size:14px ;
+	color: #fff;
+}
+.cityname .cimg{
+	
+	display: block;
+	width: 22px;
+	height: 22px;
+	background: url(../img/common/curcity.png) no-repeat -4px -2px;
+}
+.cityname .diming
+{
+	width: 50px;
+	background: red;
+	cursor: pointer;
+	text-align: center;
+	
+}
+.namelist{	
+	position: absolute;
+	width: 200px;
+	padding: 10px;
+	left: 22px;
+	top: 22px;
+	border: 1px solid #172C45;
+	background: #fff;
+	display: none;
+}
+.namelist b{
+	font-weight:100 ;
+	width: 21px;
+	height: 19px;
+	display:block;
+	float: left;
+	background: url(../img/common/change_city3.gif) no-repeat;
+	text-align: center;
+	color: #fff;
+	margin-right: 5px;
+	
+}
+.namelist li{
+
+	width: 180px;
+	margin: 2px 0;
+	
+	
+}
+.namelist .first{
+	border-bottom: 1px solid #ccc;
+	font-weight:bold ;
+	
+}
+.namelist .first b{
+	width: 51px;
+	background: #fff;
+	color: #000000;
+
+}
+.change{
+	padding-left:14px ;
+	
+}
+.change a{
+	line-height: 22px;
+}
+#load{
+	width: 186px;
+	height: 16px;
+	float: left;
+	margin-left:40px ;
+	font-size: 12px;
+	line-height: 22px;
+	color: #999999;
+}
+#load a{
+	margin-left:9px ;
+}
